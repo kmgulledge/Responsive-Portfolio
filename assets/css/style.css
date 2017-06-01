@@ -1,0 +1,205 @@
+/** Here is the most amazingly awesome white belt code ninja CSS  **/
+
+/** phone in landscape **/
+@media only screen 
+and (max-width: 640px) {
+.navbar.navbar-default.navbar-fixed-top {
+    position: static;
+	}
+}
+
+/** tablet device **/
+@media only screen
+and (min-width: 641px)
+and (max-width: 768px) {
+
+}
+
+/** desktop and laptop devices **/
+@media only screen
+and (min-width: 769px)
+and (max-width: 980px) {
+
+}
+
+
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: #ffffff;
+	background-image: url("../images/cork-wallet.png");
+	background-repeat: repeat;
+	display: flex;
+  	min-height: 100vh
+  	min-width: 960px;
+   	flex-direction: column;
+}
+
+/** Header Info  **/
+.header{
+		width: 100%;
+		height: 80px;
+		background-color: #ffffff;
+		border-bottom: 3px, solid #cccccc;
+}
+
+.header h1{
+			display:flex;
+    		align-items: center;
+    		justify-content: center;
+			height: 80px;
+    		padding: 0px 15px;
+    	    background-color: #4aaaa5;
+    		color: white;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	color: #4aaaa5;
+}
+hr{
+	border-width: 2px solid #dddddd;
+}
+
+/** Nav Info  **/
+.nav{
+	float: right;
+	height: 75px;
+}
+
+.nav ul{
+	text-align: center;
+    overflow: hidden;
+    height: 80px;
+
+}
+
+.nav li a {
+    font-size: 20px;
+    color: gray;
+    padding: 0px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav li{
+	display: inline-block;
+	border-right: 2px solid lightgray;
+	margin: 30px 0px;
+}
+
+
+.nav li a:hover {
+    color: lightblue;
+}
+
+
+.nav li:last-child {
+    border-right: none;
+}
+
+.nav a.active {
+    color: #4aaaa5;
+}
+
+/** About Me Info  **/
+img#about-image{
+				float: left;
+				margin-right: 10px;
+}
+
+.nameHeader{
+			float: left;
+			padding:0px 50px;
+}
+
+.headerContainer{
+				margin: 0 auto;
+				width: 80%;
+				height: 100%;
+}
+
+.container{
+			margin: 35px auto;
+    		width: 80%;
+    		overflow: auto;
+    		flex: 1;
+}
+
+#AboutMe{
+		float: left;
+		border: 1px solid #dddddd;
+		width: 60%;
+		padding: 20px;
+		background-color: #ffffff;
+		box-sizing: border-box;
+		margin-right: 35px;
+}
+
+/** Connect Box Info  **/
+#ConnectBox{
+			float: left;
+			width: 35%;
+			border: 1px solid #dddddd;
+			padding: 20px;
+			background-color: #ffffff;
+			box-sizing: border-box;
+}
+
+#ConnectBox ul{
+				text-align: center;
+}
+
+#ConnectBox li{
+				display: inline-block;
+}
+
+#ConnectBox img{
+				float: left;
+				width: 50px;
+				margin: 15px auto;
+}
+
+/** Portfolio Info  **/
+#PortfolioList{
+				text-align: center;
+}
+
+#PortfolioList li{
+					display: inline-block;
+					text-align: center;
+					margin: 0px; 
+}
+
+#PortfolioList img{
+					width: 200px;
+}
+
+#PortfolioList img:hover {
+    						opacity: 0.5;
+}
+
+/** Form Info  **/
+input[type="text"] {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+/** Footer Info  **/
+.footer{
+		padding: 40px;
+		background-color: #666666;
+		text-align: center;
+		border-top: 5px solid #4aaaa5;
+		clear:both;
+}
+
+.footer p{
+		color: white;
+}
