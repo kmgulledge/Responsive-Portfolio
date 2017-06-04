@@ -1,28 +1,5 @@
 /** Here is the most amazingly awesome white belt code ninja CSS  **/
 
-/** phone in landscape **/
-@media only screen 
-and (max-width: 640px) {
-.navbar.navbar-default.navbar-fixed-top {
-    position: static;
-	}
-}
-
-/** tablet device **/
-@media only screen
-and (min-width: 641px)
-and (max-width: 768px) {
-
-}
-
-/** desktop and laptop devices **/
-@media only screen
-and (min-width: 769px)
-and (max-width: 980px) {
-
-}
-
-
 body{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
@@ -202,4 +179,141 @@ textarea {
 
 .footer p{
 		color: white;
+}
+
+/** phone in landscape **/
+@media only screen 
+and (max-width: 640px) {
+	
+	.nav {
+    	position: relative;
+    	width: 100%;
+    	background-color: white;
+    	height: 50px;
+    	text-align: center;
+    	padding-bottom: 30px;
+	}
+
+	.headerContainer{
+		width: 100%;
+	}
+
+	.container {
+		width: 100%;
+	}
+	#AboutMe {
+		width: 100%;
+		margin-top: 10%;
+	}
+
+	.header {
+		width: 100%;
+	}
+
+	.nameHeader {
+		width: 100%;
+		margin: 0;
+	}
+
+	#ConnectBox {
+		width:100%;
+		margin-top: 5%;
+	}
+
+	#PortfolioList img{
+					width: 150px;
+	}
+
+}
+
+/** tablet device **/
+@media only screen
+and (min-width: 641px)
+and (max-width: 768px) {
+
+	.nav {
+    	position: relative;
+    	width: 100%;
+    	background-color: white;
+    	height: 50px;
+    	text-align: center;
+    	padding-bottom: 30px;
+	}
+
+	.headerContainer{
+		width: 100%;
+	}
+
+	.container {
+		width: 100%;
+	}
+	#AboutMe {
+		width: 100%;
+		margin-top: 10%;
+	}
+
+	.header {
+		width: 100%;
+	}
+
+	.nameHeader {
+		width: 100%;
+		margin: 0;
+	}
+
+	#ConnectBox {
+		width:100%;
+		margin-top: 5%;
+	}
+
+	#PortfolioList img{
+					width: 200px;
+	}
+
+}
+
+/** desktop and laptop devices **/
+@media only screen
+and (min-width: 769px)
+and (max-width: 980px) {
+
+		.nav {
+    	position: relative;
+    	width: 100%;
+    	background-color: white;
+    	height: 50px;
+    	text-align: center;
+    	padding-bottom: 30px;
+	}
+
+	.headerContainer{
+		width: 100%;
+	}
+
+	.container {
+		width: 100%;
+	}
+	#AboutMe {
+		width: 100%;
+		margin-top: 10%;
+	}
+
+	.header {
+		width: 100%;
+	}
+
+	.nameHeader {
+		width: 100%;
+		margin: 0;
+	}
+
+	#ConnectBox {
+		width:100%;
+		margin-top: 5%;
+	}
+
+	#PortfolioList img{
+					width: 200px;
+	}
+
 }
